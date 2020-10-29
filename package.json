@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs": "jsdoc2md --template api-readme-template.hbs --files ./src/**/**.js > API-README.md"
+    "docs": "jsdoc2md --template api-readme-template.hbs --files ./src/**/**.js > API-README.md && mv -f API-README.md Documentation/API"
   },
   "author": "",
   "license": "ISC",
