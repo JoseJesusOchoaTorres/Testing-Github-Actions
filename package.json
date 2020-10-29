@@ -1,0 +1,14 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc2md --template api-readme-template.hbs --files ./src/**/**.js > API-README.md"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^6.0.1"
+  }
+}
