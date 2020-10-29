@@ -24,6 +24,9 @@ a hello message with a full name.</p>
 <dd><p>This is a simple JSDoc example; this function will return
 a goodbye message with a full name.</p>
 </dd>
+<dt><a href="#printMessageWithColors">printMessageWithColors(message)</a></dt>
+<dd><p>This function will print in the Chrome dev tools a message with awesome colors.</p>
+</dd>
 </dl>
 
 <a name="helloMessage"></a>
@@ -64,5 +67,17 @@ a goodbye message with a full name.
 | -------- | ------------------- | ------------- |
 | name     | <code>string</code> | The name      |
 | lastName | <code>string</code> | The Last name |
+
+<a name="printMessageWithColors"></a>
+
+## printMessageWithColors(message)
+
+This function will print in the Chrome dev tools a message with awesome colors.
+
+**Kind**: global function
+
+| Param   | Type                | Description         |
+| ------- | ------------------- | ------------------- |
+| message | <code>string</code> | The awesome message |
 
 ---
