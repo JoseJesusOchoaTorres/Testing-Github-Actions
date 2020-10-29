@@ -30,5 +30,17 @@ const helloName = (name, lastName) => `${helloMessage} ${name} ${lastName}`;
  */
 const goodbyeName = (name, lastName) => `${goodbyeMessage} ${name} ${lastName}`;
 
+/**
+ * This function will print in the Chrome dev tools a message with awesome colors.
+ *
+ * @param {string} message - The awesome message
+ */
+const printMessageWithColors = (message) => {
+  console.log(
+    `%c Oh my heavens! ${message}`,
+    'background: #222; color: #bada55'
+  );
+};
+
 helloName('Jose Jesus', 'Ochoa Torres');
 goodbyeName('Jose Jesus', 'Ochoa Torres');
